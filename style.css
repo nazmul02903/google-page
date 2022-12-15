@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.header-wrapper {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  
+  gap: 50px;
+  justify-content: space-between;
+}
+
+svg {
+  width: 25px;
+  height: 25px;
+  color: gray;
+}
+
+.input-area {
+  width: 600px;
+}
+
+.input-area span {
+  background: #4d90fe;
+}
+.input-area span > svg {
+  color: white;
+}
+
+
+
+
+.header-right>img{
+    border-radius: 100%;
+}
+
+.second-header{
+  color: gray;
+}
+.second-header svg{
+  height: 18px;
+  width: 18px;
+  margin-right: 5px;
+  color: gray;
+}
+
+.second-header {
+  display: flex;
+  padding: 10px;
+  background: white;
+  border-bottom: 1px solid gainsboro;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.24;
+  font-size: 13px;
+}
+
+.svg-span{
+  color: black;
+}
+
+.content-svg >svg {
+  width: 15px;
+  height: 15px;
+}
+
+.content-svg {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
